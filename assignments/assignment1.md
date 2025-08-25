@@ -49,13 +49,13 @@ $$
 Where:  
 - \( I \) = Armature current (A)  
 - \( V \) = Input voltage (V)  
-- \( \omega \) = Angular velocity (rad/s)  
+- \( $\omega$ \) = Angular velocity (rad/s)  
 - \( R \) = Resistance (Ohm)  
 - \( L \) = Inductance (H)  
 - \( J \) = Inertia (kg·m²)  
 - \( B \) = Damping coefficient (N·m/(rad/s))  
-- \( K_b \) = Back EMF constant (V/(rad/s))  
-- \( K_t \) = Torque constant (N·m/A)  
+- \( $K_b$ \) = Back EMF constant (V/(rad/s))  
+- \( $K_t$ \) = Torque constant (N·m/A)  
 
 ---
 
