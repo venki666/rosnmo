@@ -60,10 +60,10 @@ Where:
 ---
 
 ## Controller Implementation
-- Use a **proportional controller** only:  
-\[
-  V = K_p \cdot \left( \omega_{desired} - \omega_{actual} \right)
-\]
+- Use a **proportional controller** only:
+
+$$V = K_p \cdot ( \omega_{desired} - \omega_{actual} )$$
+
 - \( $\omega_{desired}$ \) = Desired motor speed.  
 - \( $\omega_{actual}$ \) = Measured motor speed from the simulator node.  
 - \( $K_p$ \) = Proportional gain (tunable).  
