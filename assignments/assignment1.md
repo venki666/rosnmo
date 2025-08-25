@@ -37,14 +37,14 @@ The final submission must include:
 ## Motor Dynamics (Simplified)
 
 ### Electrical Part:
-\[
+\\[
 \frac{dI}{dt} = \frac{V - I \cdot R - K_b \cdot \omega}{L}
-\]
+\\]
 
 ### Mechanical Part:
-\[
+\\[
 \frac{d\omega}{dt} = \frac{K_t \cdot I - B \cdot \omega}{J}
-\]
+\\]
 
 Where:  
 - \( I \) = Armature current (A)  
@@ -61,9 +61,9 @@ Where:
 
 ## Controller Implementation
 - Use a **proportional controller** only:  
-  \[
+  \\[
   V = K_p \cdot ( \omega_{desired} - \omega_{actual} )
-  \]
+  \\]
 - \( \omega_{desired} \) = Desired motor speed.  
 - \( \omega_{actual} \) = Measured motor speed from the simulator node.  
 - \( K_p \) = Proportional gain (tunable).  
