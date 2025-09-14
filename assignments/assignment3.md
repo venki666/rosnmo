@@ -49,7 +49,11 @@ Inverse kinematics (body → wheels, angular wheel speed):
 Map wheel angular speed to PWM (signed), with limits:
 
 - Convert $\omega_{L/R}$ to a **normalized duty** $\in [-1, 1]$ via a scale $\omega_{\max}$.
-- Then to integer PWM in - ```math \{PWM}_{\max}$, + $\{PWM}_{\max} ```.
+- Then to integer PWM in
+
+```math
+- \{PWM}_{\max}, + \{PWM}_{\max} 
+```
 
 Example:
 
