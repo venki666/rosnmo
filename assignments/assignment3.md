@@ -35,16 +35,16 @@ Use an **STM32F1 (BluePill)** as a ROS node over serial. The microcontroller sha
 
 Let \(r\) = wheel radius (m), \(L\) = wheelbase/track (m). From `Twist`:
 
-\[
+```math
 v = \text{linear.x}, \quad \omega = \text{angular.z}
-\]
+```
 
 Inverse kinematics (body → wheels, angular wheel speed):
 
-\[
+```math
 \omega_R = \frac{1}{r}\left(v + \frac{L}{2}\,\omega\right),\quad
 \omega_L = \frac{1}{r}\left(v - \frac{L}{2}\,\omega\right)
-\]
+```
 
 Map wheel angular speed to PWM (signed), with limits:
 
@@ -53,10 +53,10 @@ Map wheel angular speed to PWM (signed), with limits:
 
 Example:
 
-\[
+```math
 \text{duty}_{L/R} = \operatorname{clip}\!\left(\frac{\omega_{L/R}}{\omega_{\max}},\ -1,\ 1\right),\qquad
 \text{PWM}_{L/R} = \left\lfloor \text{duty}_{L/R}\cdot \text{PWM}_{\max} \right\rfloor
-\]
+```
 
 **Recommended parameters:**
 - `wheel_radius = 0.03 m`
@@ -77,6 +77,4 @@ Example:
 - **Common ground required** between MCU, driver, and power supply.
 
 ---
-
-## 5) Project Structure
 
