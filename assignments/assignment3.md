@@ -52,7 +52,7 @@ Map wheel angular speed to PWM (signed), with limits:
 - Then to integer PWM in
 
 ```math
-- \{PWM}_{\max}, + \{PWM}_{\max} 
+ -{PWM}_{max}, + {PWM}_{max} 
 ```
 
 Example:
