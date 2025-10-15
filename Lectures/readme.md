@@ -10,5 +10,6 @@ Sept 7th - https://unlv.zoom.us/rec/share/47PcspqYk-80Kj4QQObxoazcXGzuXHHCevlrix
 
 Sept 14th - https://unlv.zoom.us/rec/share/FnrBxdFGpR1cA73v5dhKT-PUttLqSZ-AFrdeBwEtYMS6FJSllLAEE_HTSzyXgB9p.rgmXMA6jLpf2qasr
 
+Sept 21st - https://unlv.zoom.us/rec/share/G-X2T78DtwlNQ4UiW-dHrhYEMruZCd7VF_c_2Hl0dwQTpt4gqgYtvcJlFz2R3bM6.kP4TdQ3SPdoMI2Jt
 
-
+Oct 8th - https://unlv.zoom.us/rec/share/1IVMKs2vkm_Wo488U73zkcTwLMJHAs5mBhM7v3X_ukygeb3R6Y-Oc4hi2NMB6iva.Km8m8aoP4ZKUxlWE
