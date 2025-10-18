@@ -1,0 +1,1 @@
+rosrun xacro xacro ...urdf/model.xacro > .../urdf/model.urdf
